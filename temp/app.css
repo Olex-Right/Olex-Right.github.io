@@ -1586,10 +1586,13 @@ textarea::placeholder {
   display: none; }
 
 .form.error .input-error{
-  display: inline;
+  display: block;
 }
 .input-error{
   display: none;
+  text-align: center;
+}
+.input-error p{
   color: #F8002D;
   font-weight: 700;
   font-size: 18px;
