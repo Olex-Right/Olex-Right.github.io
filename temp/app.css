@@ -1585,6 +1585,16 @@ textarea::placeholder {
 .form.success .form-btn {
   display: none; }
 
+.form.error .input-error{
+  display: inline;
+}
+.input-error{
+  display: none;
+  color: #F8002D;
+  font-weight: 700;
+  font-size: 18px;
+  text-shadow: 1px 1px 5px #f8002d83;
+}
 .input-success {
   display: none;
   align-items: start;
