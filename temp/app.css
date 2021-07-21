@@ -1650,7 +1650,16 @@ textarea::placeholder {
 
 .form.loading .form-btn {
   display: none; }
-
+.input-error{
+  display: none;
+}
+.input-error p{
+  text-align: center;
+  color: #F8002D;
+}
+.form.error .input-error{
+  display: block;
+}
 .active {
   display: flex; }
 
